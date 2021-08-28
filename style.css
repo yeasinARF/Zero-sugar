@@ -1,0 +1,1269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+
+.nav-link p{
+    color:white;
+    font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    padding-right: 7px;
+}
+.nav-link p:hover{
+    color: rgb(168, 160, 160);
+    
+
+}
+.Image img{
+    max-height: 400px;
+    max-width: 350px;
+
+}
+
+.Button button{
+    margin-top: 35px;
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+.Button button:hover{
+    transform: translateY(-10px);
+}
+.HeadingText h1{
+    font-size: 5rem;
+    font-weight:900px;
+}
+.HeadingText h2{
+    font-size: 2rem;
+    font-weight:900px;
+}
+
+.ImageClass img{
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+}
+.ImageClass img:hover{
+    transform: translateY(-10px) ;
+}
+.SecondContainer .ImageText img{
+        
+    max-width:430px;
+    max-height:250px;
+}
+.Image img{
+    transition: all 0.6s linear;
+    cursor: pointer;
+}
+.Image img:hover{
+
+    transform: scale(1.1);
+
+}
+
+.PlayButton{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    
+}
+.navbar-brand img{
+    transition: all 0.3s ease-in-out;
+}
+.navbar-brand img:hover{
+    transform: rotate(-360deg);
+}
+
+
+
+.Video{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+.VideoA{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+
+}
+.VideoMobile{
+    display: none;
+}
+.CloseButton{
+    position: absolute;
+    top:2px;
+    right:12px;
+    
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.CloseButtonA{
+    position: absolute;
+    top:15px;
+    right:12px;
+    
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.mobileClassPepsi{
+    display: none;
+}
+.ImageZero2{
+    display: none;
+}
+.ImageZero3{
+    display: none;
+}
+.ContactText{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.inputClass{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+    
+    
+}
+.inputClass::placeholder{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+
+.inputClass:focus{
+    box-shadow: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.Microphone p{
+    display:none;
+}
+.Microphone:hover p{
+    display:block;
+}
+
+.fa-microphone{
+    cursor: pointer;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+
+}
+.CardClassProduct .card{
+    border: none;
+    
+}
+.CardClassProduct2 .card{
+    border: none;
+}
+.CardClassProduct3 .card{
+    border: none;
+}
+.CardClassProduct .card p{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.CardClassProduct2 .card p{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.CardClassProduct3 .card p{
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.Pepsi1{
+    transition: all 0.5s linear;
+}
+.Pepsi1:hover{
+    background-color: #0062be;
+    cursor: pointer;
+    
+}
+.Pepsi1:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi1:hover img{
+    transform: scale(1.1);
+}
+.Pepsi2{
+    transition: all 0.5s linear;
+}
+.Pepsi2:hover{
+    background-color: #2b2d2e;
+    cursor: pointer;
+    
+}
+.Pepsi2:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi2:hover img{
+    transform: scale(1.1);
+}
+.Pepsi3{
+    transition: all 0.5s linear;
+}
+.Pepsi3:hover{
+    background-color: rgb(158, 151, 151);
+    cursor: pointer;
+    
+}
+.Pepsi3:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi3:hover img{
+    transform: scale(1.1);
+}
+.Pepsi4{
+    transition: all 0.5s linear;
+}
+.Pepsi4:hover{
+    background-color: orange;
+    cursor: pointer;
+    
+}
+.Pepsi4:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi4:hover img{
+    transform: scale(1.1);
+}
+.Pepsi5{
+    transition: all 0.5s linear;
+}
+.Pepsi5:hover{
+    background-color: orange;
+    cursor: pointer;
+    
+}
+.Pepsi5:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi5:hover img{
+    transform: scale(1.1);
+}
+.Pepsi6{
+    transition: all 0.5s linear;
+}
+.Pepsi6:hover{
+    background-color: rgb(199, 15, 70);
+    cursor: pointer;
+    
+}
+.Pepsi6:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi6:hover img{
+    transform: scale(1.1);
+    
+}
+.Pepsi7{
+    transition: all 0.5s linear;
+}
+.Pepsi7:hover{
+    background-color: rgb(158, 151, 151);
+    cursor: pointer;
+    
+}
+.Pepsi7:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi7:hover img{
+    transform: scale(1.1);
+}
+.Pepsi8{
+    transition: all 0.5s linear;
+}
+.Pepsi8:hover{
+    background-color: #c52080;
+    cursor: pointer;
+    
+}
+.Pepsi8:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi8:hover img{
+    transform: scale(1.1);
+}
+.Pepsi9{
+    transition: all 0.5s linear;
+}
+.Pepsi9:hover{
+    background-color: rgb(231, 208, 79);
+    cursor: pointer;
+    
+}
+.Pepsi9:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi9:hover img{
+    transform: scale(1.1);
+}
+.Pepsi10{
+    transition: all 0.5s linear;
+}
+.Pepsi10:hover{
+    background-color: #ccd0d4;
+    cursor: pointer;
+    
+}
+.Pepsi10:hover img{
+    opacity: 0.2;
+    transition: all 0.6s linear;
+}
+.Pepsi10:hover img{
+    transform: scale(1.1);
+}
+.Pepsi1 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi2 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi3 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi4 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi5 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    text-align: center;
+    display: none;
+}
+.Pepsi6 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi7 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+
+}
+.Pepsi8 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi9 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi10 h5{
+    position: absolute;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.Pepsi1:hover h5{
+    display: block;
+}
+.Pepsi2:hover h5{
+    display: block;
+}
+.Pepsi3:hover h5{
+    display: block;
+}
+.Pepsi4:hover h5{
+    display: block;
+}
+.Pepsi5:hover h5{
+    display: block;
+}
+.Pepsi6:hover h5{
+    display: block;
+    
+}
+.Pepsi7:hover h5{
+    display: block;
+}
+.Pepsi8:hover h5{
+    display: block;
+}
+.Pepsi9:hover h5{
+    display: block;
+}
+.Pepsi10:hover h5{
+    display: block;
+}
+.Pepsi1:hover p{
+    opacity: 0.2;
+}
+.Pepsi2:hover p{
+    opacity: 0.1;
+}
+.Pepsi3:hover p{
+    opacity: 0.4;
+}
+.Pepsi4:hover p{
+    opacity: 0.2;
+}
+.Pepsi5:hover p{
+    opacity: 0.2;
+}
+.Pepsi6:hover p{
+    opacity: 0.2;
+}
+.Pepsi7:hover p{
+    opacity: 0.2;
+}
+.Pepsi8:hover p{
+    opacity: 0.2;
+}
+.Pepsi9:hover p{
+    opacity: 0.2;
+}
+.Pepsi10:hover p{
+    opacity: 0.2;
+}
+.CardClassProduct a{
+    text-decoration: none;
+}
+.CardClassProduct2 a{
+    text-decoration: none;
+}
+.CardClassProduct3 a{
+    text-decoration: none;
+}
+.Item1 p{
+    color: gray;
+    
+
+}
+.Item1 p:hover{
+    color: rgb(197, 190, 190);
+}
+.Item3 p{
+    color: gray;
+   
+
+}
+.Item3 p:hover{
+    color: rgb(197, 190, 190);
+}
+.Item4 p{
+    color: gray;
+    
+}
+.Item4 p:hover{
+    color: rgb(197, 190, 190);
+}
+.ButtonPepsi{
+    width:190px;
+    height: 30px;
+    border: 2px solid #0062be;
+    text-align: center;
+    padding: 4px;
+    border-radius: 20px;
+    background-color: white;
+    
+ 
+}
+.ButtonPepsi p{
+    font-weight: 800;
+    font-size: 0.8rem;
+    color: #0062be;
+    font-family: serif;
+}
+.ButtonPepsi{
+    transition: all 0.4s ease-in-out;
+}
+.ButtonPepsi:hover{
+    background-color:#0062be ;
+    
+}
+.ButtonPepsi:hover p{
+    color: white;
+}
+.HeadClassOfTable{
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+.SubHeadClassOfTable{
+    font-size: 0.9rem;
+    font-weight: 800;
+    font-family: sans-serif;
+    
+
+}
+.buttonBuyNow{
+    transition: all 0.3s ease-in-out;
+    color: white;
+    background: transparent;
+    
+}
+.buttonBuyNow:hover{
+    background-color: white;
+    color:#0062be ;
+}
+.fa-th{
+    transition: all 0.4s ease-in-out;
+    color: lightgray;
+
+}
+.fa-th:hover{
+    color: white;
+}
+.ArrowClassRight{
+    position: absolute;
+    top:50%;
+    right:10%;
+    transform: translateY(-50%);
+
+}
+.ArrowClassLeft{
+    position: absolute;
+    top:50%;
+    left:10%;
+    transform: translateY(-50%);
+
+}
+.fa-arrow-right{
+    color: rgb(202, 195, 195);
+    transition: all 0.4s linear;
+}
+.fa-arrow-left{
+    color: rgb(202, 195, 195);
+    transition: all 0.4s linear;
+
+}
+.fa-arrow-right:hover{
+    color: white;
+}
+.fa-arrow-left:hover{
+    color: white;
+}
+.MobileDevice{
+    display: none;
+}
+.HooverText{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+.fa-twitter {
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.fa-facebook-f{
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.fa-instagram{
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+}
+.fa-youtube{
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+
+
+}
+.fa-instagram:hover{
+    transform: scale(1.1);
+}
+.fa-youtube:hover{
+    transform: scale(1.1);
+}
+.fa-twitter:hover{
+    transform: scale(1.1);
+}
+.fa-facebook-f:hover{
+    transform: scale(1.1);
+}
+
+.HooverImage .card{
+    transition: all 0.4s ease-in-out;
+    background-color: black;
+    cursor: pointer;
+}
+.HooverImage .card:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+.HooverImage .card:hover img{
+    opacity: 0.6;
+}
+.footerText{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+.SubscribeButton{
+    background-color: transparent;
+    color: white;
+    font-size:0.7rem;
+    font-weight: 900;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 220px;
+}
+.ICONFooter i{
+    padding-right: 10px;
+    
+    padding-top: 20px;
+
+}
+
+
+@media(min-width:1400px) 
+{
+   .spanTool{
+       display: none;
+   }
+}
+@media(max-width:1240px) and (min-width:1200px)
+{
+    .fa-microphone{
+        left: 72%;
+    }
+}
+@media(min-width:992px){
+    .navbar{
+       background-color: transparent;
+       
+    }
+    .AllImageClass{
+        height: 300px;
+        width: 300px;
+    }
+    .product img{
+        max-width: 250px;
+    
+    
+    }
+
+}
+@media(max-width:991px){
+    .navbar{
+        background-color: transparent;
+    }
+    .navbar-collapse{
+        background-color: white;
+
+     }
+    .nav-link p{
+        color: black;
+
+    }
+    .SecondContainer .ImageText img{
+        
+        max-width:380px;
+        max-height:250px;
+    }
+    .product img{
+        max-width: 220px;
+    
+    
+    }
+
+}
+@media(max-width:991px) and (min-width:768px)
+{
+    .Image img{
+        width:200px;
+        height: 330px;
+        padding-left: 10px;
+       
+
+    }
+    .ImageText img{
+        width: 260px;
+    }
+    .ContactText{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+}
+@media(max-width:928px){
+    .SubscribeButton{
+        max-width:200px;
+    }
+
+}
+@media(max-width:850px){
+    .SubscribeButton{
+        max-width:185px;
+    }
+
+}
+@media (max-width:767px)
+
+{
+    .Image {
+        text-align: center;
+    }
+    .ImageClass{
+        padding-top: 30px;
+    }
+    .SecondContainer .ImageText img{
+        
+        max-width:295px;
+        max-height:250px;
+    }
+    .SecondContainer .ImageText{
+        text-align: center;
+    }
+    .AllImageClass{
+        display: none;
+    }
+    .VideoMobile{
+        display: block;
+    }
+    .Image img{
+        transition: all 0.6s linear;
+        cursor: pointer;
+    }
+    .Image img:hover{
+    
+        transform: scale(1.1);
+    
+    }
+   
+   .mobileClassPepsi{
+    display: block;
+   }
+   .BigDevicePepsi{
+    display: none;
+
+   }
+   .product img{
+    max-width:100%;
+
+
+  }
+  .burgerPhoto{
+      display: none;
+  }
+  .ContactText{
+    font-size: 2.5rem;
+    font-weight: 700;
+    }
+    .CardClassProduct p{
+        font-size: 0.7rem;
+    }
+    .CardClassProduct2 p{
+        font-size: 0.7rem;
+    }
+    .CardClassProduct3 p{
+        font-size: 0.7rem;
+    }
+    .Diet{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .Diet2{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .DietWild{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .PepsiCaffeinfree{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .PepsiMango{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .WildCherry{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .ZeroMango{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .ZeroSugarA{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .ZeroSugarWild{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .Index3{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .buttonBuyNow{
+        margin-bottom: 40px;
+    }
+    .MobileDevice{
+        display: block;
+    }
+    .BigDevice{
+        display: none;
+    }
+    .ButtonSubscribe{
+        text-align: center;
+    }
+    .class1{
+        text-align: center;
+    }
+    .class2{
+        text-align: center;
+    }
+    
+}
+    
+    
+    
+   
+    
+    
+    
+
+@media(max-width:767px) and (min-width:600px)
+
+{
+    .Button {
+        padding-bottom: 32px;
+    
+    }
+    .ContactText{
+        font-size: 2rem;
+        font-weight: 700;
+     }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 1.2rem;
+        
+    }
+    .inputClass{
+        font-size: 1.2rem;
+
+    }
+    
+    
+}
+@media(max-width:599px) and (min-width:541px)
+{
+    .ContactText{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 1.1rem;
+        
+    }
+    .inputClass{
+        font-size: 1.1rem;
+
+    }
+}
+
+@media (max-width:540px) and (min-width:416px)
+{
+    
+    .Image img{
+        max-height: 550px;
+    }
+    
+    .SecondContainer .Image{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .Button {
+        padding-bottom: 200px;
+        padding-top: 60px;
+     }
+    .ContactText{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 1rem;
+        
+    }
+    .inputClass{
+        font-size: 1rem;
+
+    }
+}
+@media(max-width:539px)
+{
+    .toolTip p{
+        font-size: 0.8rem;
+        
+    }
+}
+@media (max-width:415px) and (min-width:400px)
+{
+    
+   .Image img{
+       max-height: 550px;
+   }
+   .Button {
+    padding-bottom: 255px;
+    padding-top: 60px;
+    }
+   .SecondContainer .Image{
+    text-align: center;
+    padding-top: 200px;
+    }
+    .ContactText{
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 0.8rem;
+        
+    }
+    .inputClass{
+        font-size: 0.8rem;
+
+    }
+    .ArrowClassRight{
+        right: 5%;
+    }
+    .ArrowClassLeft{
+        left: 5%;}
+    .NUTRITION{
+        padding-top: 110px;
+    }
+}
+@media(max-width:399px) and (min-width:376px)
+{
+    .ContactText{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 0.7rem;
+        
+    }
+    .inputClass{
+        font-size: 0.7rem;
+
+    }
+}
+@media (max-width:375px) and (min-width:326px)
+{
+    .Image{
+      padding-top: 50px;
+    }
+    .Image img{
+        max-height: 450px;
+    }
+    .Button {
+        padding-bottom: 200px;
+        padding-top: 20px;
+    }
+    .ContactText{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 0.7rem;
+        
+    }
+    .inputClass{
+        font-size: 0.7rem;
+
+    }
+    .fa-microphone{
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        left: 67%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .paragraphText p{
+        padding-top: 25px;
+
+    }
+    .CardClassProduct p{
+        font-size: 0.6rem;
+    }
+    .CardClassProduct2 p{
+        font-size: 0.6rem;
+    }
+    .CardClassProduct3 p{
+        font-size: 0.6rem;
+    }
+    .ArrowClassRight{
+        right: 3%;
+    }
+    .ArrowClassLeft{
+        left: 3%;}
+    
+    
+}
+@media (max-width:325px)
+{
+    .Image{
+        padding-top: 40px;
+    }
+    .SecondContainer .ImageText img{
+        
+        max-width:250px;
+        max-height:250px;
+        padding-bottom: 50px;
+       
+    }
+    .HeadingText h2{
+        text-align: center;
+        font-size: 1.8rem;
+
+    }
+    .HeadingText h1{
+        text-align: center;
+        font-size: 3rem;
+
+    }
+    .paragraphText p{
+        text-align: center;
+        font-size: 1rem;
+
+    }
+    .Button {
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .SecondContainer .Image{
+        text-align: center;
+        
+    }
+    .ContactText{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 0.6rem;
+        
+    }
+    .inputClass{
+        font-size: 0.6rem;
+
+    }
+    .fa-microphone{
+        cursor: pointer;
+        position: absolute;
+        top: 25%;
+        left: 63%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .toolTip p{
+        font-size: 0.7rem;
+        
+    }
+    .buttonBuyNow{
+        margin-bottom: 10px;
+    }
+    .ArrowClassRight{
+        right: 3%;
+    }
+    .ArrowClassLeft{
+        left: 3%;}
+    .FullViewProduct{
+        height: 400px;
+        width: 200px;
+    }
+    .NUTRITION{
+        padding-top: 50px;
+    }
+}
+@media (max-width:300px)
+{
+    .Image{
+        padding-top: 45px;
+    }
+    .Image img{
+        max-height: 475px;
+        
+    }
+    .SecondContainer .ImageText img{
+        
+        max-width:220px;
+        max-height:250px;
+        padding-bottom: 40px;
+       
+    }
+    .SecondContainer .Image{
+        text-align: center;
+        
+    }
+    .SecondContainer .Image img{
+        width:200px;
+        height: 430px;
+    }
+   
+    .SecondContainer .ImageText {
+        
+        text-align: center;
+        
+       
+    }
+    .ImageClick {
+        width:180px;
+        height:250px;
+    }
+    .Button {
+        padding-top: 50px;
+        text-align: center;
+    }
+    .ContactText{
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    .inputClass::placeholder{
+        color: white;
+        font-size: 0.5rem;
+        
+    }
+    .inputClass{
+        font-size: 0.5rem;
+
+    }
+    .fa-microphone{
+        cursor: pointer;
+        position: absolute;
+        top: 40%;
+        left: 58%;
+        transform: translate(-50%,-50%);
+    
+    }
+    .input-group{
+        margin-top: 20px;
+    }
+    .toolTip p{
+        font-size: 0.6rem;
+        
+    }
+    .buttonBuyNow{
+        margin-bottom: 10px;
+    }
+    .NUTRITION{
+        padding-top: 130px;
+    }
+
+    
+}
